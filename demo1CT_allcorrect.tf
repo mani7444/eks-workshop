@@ -65,7 +65,7 @@ resource "aws_db_instance" "default" {
 
 # Create a new replication instance
 resource "aws_dms_replication_instance" "test" {
-  allocated_storage            = 20
+  allocated_storage            = 30
   apply_immediately            = true
   auto_minor_version_upgrade   = true
   availability_zone            = "us-west-2c"
